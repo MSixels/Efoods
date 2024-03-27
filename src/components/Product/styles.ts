@@ -1,25 +1,31 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { Cores } from '../../styles'
 
-export const Card = styled.div`
-  max-width: 472px;
-  background-color: ${Cores.bege};
+export const Card = styled(Link)`
+  max-width: 473px;
   color: ${Cores.rosa};
   position: relative;
   margin-bottom: 48px;
   line-height: 22px;
+  margin-top: 16px;
 
   img {
+    display: block;
     width: 100%;
+    max-height: 210px;
   }
 `
 
 export const CardInfos = styled.div`
-  padding: 0 8px 8px;
+  padding: 16px 8px 8px;
   border-right: solid 1px;
   border-left: solid 1px;
   border-bottom: solid 1px;
   border-color: ${Cores.rosa};
+  max-height: 225px;
+  height: 100%;
+  background-color: ${Cores.begeClaro};
 `
 
 export const Title = styled.h2`
@@ -31,6 +37,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 8px;
   margin-bottom: 16px;
 `
 
@@ -61,16 +68,6 @@ export const Button = styled.button`
   a {
     color: ${Cores.branco};
   }
-`
-
-export const TagContainer = styled.div`
-  background-color: ${Cores.rosa};
-  color: ${Cores.branco};
-  font-size: 12px;
-  font-weight: bold;
-  padding: 8px;
-  display: inline-block;
-  margin-left: 16px;
 `
 
 export const Infos = styled.div`

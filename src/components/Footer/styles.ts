@@ -1,27 +1,25 @@
 import styled from 'styled-components'
+import { Imagem } from '../Header/styles'
 import { Cores } from '../../styles'
 
-export const Container = styled.div`
-  display: block;
-  background-color: ${Cores.bege};
-  align-items: center;
-
-  .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 64px;
-  }
+export const ImageFooter = styled(Imagem)`
+  height: 300px;
 `
 
-export const RedesSociais = styled.div`
-  position: relative;
+export const ContainerImg = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`
+
+export const RedesSociais = styled.div`
+  max-width: 88px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   top: 96px;
-}
 `
 
 export const RodaPe = styled.p`
@@ -30,5 +28,4 @@ export const RodaPe = styled.p`
   text-align: center;
   color: ${Cores.rosa};
   margin-top: 160px;
-  padding-bottom: 24px;
 `
