@@ -15,7 +15,7 @@ export const formataPreco = (preco = 0) => {
   }).format(preco)
 }
 
-const Card = ({ foto, nome, descricao, porcao, preco, id }: Prato) => {
+const Card = ({ foto, nome, descricao, porcao, preco }: Prato) => {
   const [modal, setModal] = useState<ModalState>({
     isVisible: false
   })
