@@ -30,6 +30,7 @@ export const Fundo = styled(Imagem)`
 export const Apresentacao = styled(Imagem)`
   height: 300px;
   margin-bottom: 56px;
+  object-fit: cover;
 
   .container {
     display: block;
@@ -49,4 +50,8 @@ export const Titulo2 = styled.h2`
   top: 180px;
   color: ${Cores.branco};
   position: absolute;
+`
+
+export const CartButton = styled.span`
+  cursor: pointer;
 `

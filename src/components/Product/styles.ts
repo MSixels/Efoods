@@ -8,24 +8,23 @@ export const Card = styled(Link)`
   position: relative;
   margin-bottom: 48px;
   line-height: 22px;
-  margin-top: 16px;
 
   img {
     display: block;
     width: 100%;
     max-height: 210px;
+    object-fit: cover;
   }
 `
 
 export const CardInfos = styled.div`
-  padding: 16px 8px 8px;
+  padding: 0 8px 8px;
   border-right: solid 1px;
   border-left: solid 1px;
   border-bottom: solid 1px;
   border-color: ${Cores.rosa};
   max-height: 225px;
   height: 100%;
-  background-color: ${Cores.begeClaro};
 `
 
 export const Title = styled.h2`

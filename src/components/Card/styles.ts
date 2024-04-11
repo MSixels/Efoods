@@ -69,7 +69,7 @@ export const TagContainer = styled.div`
 `
 
 export const BotaoAdicionar = styled.button`
-  background-color: ${Cores.branco};
+  background-color: ${Cores.bege};
   color: ${Cores.rosa};
   font-size: 14px;
   font-weight: bold;
