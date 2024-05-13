@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 
 export const Imagem = styled.div`
   width: 100%;
@@ -25,5 +25,5 @@ export const Titulo = styled.h2`
   line-height: 42px;
   text-align: center;
   top: 220px;
-  color: ${Cores.rosa};
+  color: ${Colors.pink};
 `

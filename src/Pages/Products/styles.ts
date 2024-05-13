@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Imagem } from '../../components/Header/styles'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 export const Fundo = styled(Imagem)`
   height: 200px;
   display: flex;
@@ -8,9 +8,9 @@ export const Fundo = styled(Imagem)`
   .container {
     top: 0;
     justify-content: space-between;
-    color: ${Cores.rosa};
+    color: ${Colors.pink};
     a {
-      color: ${Cores.rosa};
+      color: ${Colors.pink};
     }
   }
 `
@@ -28,12 +28,12 @@ export const Titulo = styled.h3`
   top: 0px;
   font-size: 32px;
   font-weight: 100;
-  color: ${Cores.branco};
+  color: ${Colors.white};
 `
 export const Titulo2 = styled.h2`
   font-size: 32px;
   font-weight: bold;
   top: 180px;
-  color: ${Cores.branco};
+  color: ${Colors.white};
   position: absolute;
 `

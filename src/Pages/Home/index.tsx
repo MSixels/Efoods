@@ -3,8 +3,7 @@ import Header from '../../components/Header'
 import { useGetTiposCardapioQuery } from '../../Services/api'
 
 const Home = () => {
-  const { data: tiposCardapio, isLoading: isLoadingTipos } =
-    useGetTiposCardapioQuery()
+  const { data: tiposCardapio } = useGetTiposCardapioQuery()
 
   if (tiposCardapio) {
     return (

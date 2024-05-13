@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 import { Props } from '.'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 import { Card } from '../Product/styles'
 
 export const Container = styled.section<Omit<Props, 'cardapios'>>`
-  background-color: ${Cores.begeClaro};
+  background-color: ${Colors.lightBeige};
   ${Card} {
     background-color: ${(props) =>
-      props.background === 'rosa' ? Cores.rosa : Cores.branco};
+      props.background === 'rosa' ? Colors.pink : Colors.white};
   }
 `
 

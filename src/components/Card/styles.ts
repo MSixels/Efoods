@@ -1,12 +1,12 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 
 export const Imagem = styled.img`
   width: 100%;
   height: 175px;
   object-fit: cover;
   padding: 8px 8px 0 8px;
-  background-color: ${Cores.rosa};
+  background-color: ${Colors.pink};
 `
 
 export const Card = styled.div`
@@ -15,7 +15,7 @@ export const Card = styled.div`
 `
 
 export const CardContainer = styled.div`
-  background-color: ${Cores.rosa};
+  background-color: ${Colors.pink};
   padding: 8px;
   margin-bottom: 32px;
   margin-top: -4px;
@@ -30,7 +30,7 @@ export const TituloContainer = styled.div`
 export const Titulo = styled.h3`
   font-weight: bold;
   font-size: 18px;
-  color: ${Cores.branco};
+  color: ${Colors.white};
 `
 
 export const NotaContainer = styled.div`
@@ -49,7 +49,7 @@ export const Descricao = styled.p`
   font-size: 14px;
   line-height: 22px;
   margin: 16px 0;
-  color: ${Cores.branco};
+  color: ${Colors.white};
 `
 
 export const Infos = styled.div`
@@ -59,8 +59,8 @@ export const Infos = styled.div`
 `
 
 export const TagContainer = styled.div`
-  background-color: ${Cores.rosa};
-  color: ${Cores.branco};
+  background-color: ${Colors.pink};
+  color: ${Colors.white};
   font-size: 12px;
   font-weight: bold;
   padding: 6px 4px;
@@ -69,8 +69,8 @@ export const TagContainer = styled.div`
 `
 
 export const BotaoAdicionar = styled.button`
-  background-color: ${Cores.bege};
-  color: ${Cores.rosa};
+  background-color: ${Colors.beige};
+  color: ${Colors.pink};
   font-size: 14px;
   font-weight: bold;
   padding: 4px;
@@ -110,8 +110,8 @@ export const ModalContent = styled.div`
   width: 100%;
   max-height: 344px;
   height: 100%;
-  background-color: ${Cores.rosa};
-  color: ${Cores.branco};
+  background-color: ${Colors.pink};
+  color: ${Colors.white};
   padding: 32px;
   margin: 0 auto;
   position: relative;

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { List } from '../ProductList/styles'
 
 export const Items = styled.ul`
   display: grid;

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Imagem } from '../Header/styles'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 
 export const ImageFooter = styled(Imagem)`
   height: 300px;
@@ -26,6 +26,6 @@ export const RodaPe = styled.p`
   position: relative;
   font-size: 10px;
   text-align: center;
-  color: ${Cores.rosa};
+  color: ${Colors.pink};
   margin-top: 160px;
 `

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 import lixeira from '../../assets/images/lixeira.png'
 
 export const Overlay = styled.div`
@@ -8,7 +8,7 @@ export const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: ${Cores.preto};
+  background-color: ${Colors.black};
   opacity: 0.7;
 `
 
@@ -28,14 +28,14 @@ export const CartContainer = styled.div`
 `
 
 export const SideBar = styled.aside`
-  background-color: ${Cores.rosa};
+  background-color: ${Colors.pink};
   z-index: 1;
   padding: 40px 16px 0 16px;
   max-width: 360px;
   width: 100%;
 
   span {
-    color: ${Cores.branco};
+    color: ${Colors.white};
   }
 `
 
@@ -48,24 +48,24 @@ export const ContainerPrices = styled.div`
 export const Prices = styled.p`
   font-weight: bold;
   font-size: 14px;
-  color: ${Cores.branco};
+  color: ${Colors.white};
   margin-bottom: 24px;
 `
 
 export const Preco = styled.p`
   font-weight: 400;
   font-size: 14px;
-  color: ${Cores.rosa};
+  color: ${Colors.pink};
   margin-bottom: 24px;
 `
 
 export const CartItem = styled.li`
   display: flex;
-  border-bottom: 1px solid ${Cores.rosa};
+  border-bottom: 1px solid ${Colors.pink};
   padding: 8px 0;
   margin-bottom: 16px;
   position: relative;
-  background-color: ${Cores.bege};
+  background-color: ${Colors.beige};
 
   img {
     height: 80px;
@@ -75,7 +75,7 @@ export const CartItem = styled.li`
   }
 
   h3 {
-    color: ${Cores.rosa};
+    color: ${Colors.pink};
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 16px;
@@ -83,7 +83,7 @@ export const CartItem = styled.li`
 
   span {
     display: block;
-    color: ${Cores.rosa};
+    color: ${Colors.pink};
     font-weight: bold;
     font-size: 14px;
   }

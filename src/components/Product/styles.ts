@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { Cores } from '../../styles'
+import { Colors } from '../../styles'
 
 export const Card = styled(Link)`
   max-width: 473px;
-  color: ${Cores.rosa};
+  color: ${Colors.pink};
   position: relative;
   margin-bottom: 48px;
   line-height: 22px;
@@ -22,7 +22,7 @@ export const CardInfos = styled.div`
   border-right: solid 1px;
   border-left: solid 1px;
   border-bottom: solid 1px;
-  border-color: ${Cores.rosa};
+  border-color: ${Colors.pink};
   max-height: 225px;
   height: 100%;
 `
@@ -60,12 +60,12 @@ export const Descricao = styled.p`
 export const Button = styled.button`
   width: 82px;
   cursor: pointer;
-  background-color: ${Cores.rosa};
+  background-color: ${Colors.pink};
   border: none;
   padding: 6px;
 
   a {
-    color: ${Cores.branco};
+    color: ${Colors.white};
   }
 `
 
